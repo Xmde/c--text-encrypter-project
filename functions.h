@@ -108,7 +108,7 @@ void mixColumns(unsigned char *state){
 
 }
 
-void inverseMixColumns(unsigned char * state){
+void inverseMixColumns(unsigned char *state){
     unsigned char temp[16];
 
 	temp[0] = (unsigned char)mul14[state[0]] ^ mul11[state[1]] ^ mul13[state[2]] ^ mul9[state[3]];
@@ -156,7 +156,7 @@ void finalRound (unsigned char *state, unsigned char *key){
     addRoundKey(state, key);
 }
 
-void initRound(unsigned char * state, unsigned char * key){
+void initRound(unsigned char *state, unsigned char *key){
     addRoundKey(state, key);
     inverseShiftRows(state);
     inverseSubBox(state);
