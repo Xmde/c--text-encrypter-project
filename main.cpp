@@ -1,4 +1,4 @@
-// For compilers that support precompilation, includes "wx/wx.h".
+//code by django
 
 #include "wx/wxprec.h"
 

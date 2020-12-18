@@ -1,5 +1,5 @@
 // "structures.h" defines the look-up tables and KeyExpansion function 
-#ifndef STRUCTURES_H
+//code by eric
 #define STRUCTURES_H
 
 // Encryption: Forward Rijndael S-box 
@@ -237,5 +237,3 @@ void KeyExpantion(unsigned char inputKey[16], unsigned char expandedKey[176]){
         }
     }
 }
-
-#endif /* STRUCTURES_H */
